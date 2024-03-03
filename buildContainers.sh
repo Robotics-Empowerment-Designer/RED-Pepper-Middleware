@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # build rest-server container
-docker build -t rest-server rest-server/
+sudo docker build -t rest-server rest-server/
 
 # build mosquitto container
-docker build -t mosquitto mosquitto/
+sudo docker build -t mosquitto mosquitto/
